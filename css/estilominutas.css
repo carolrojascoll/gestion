@@ -1,0 +1,65 @@
+/* variables */
+:root {
+    --primario: rgb(2, 62, 151);/*#024897*/
+    --oscuro: #1d1b31;/*#024897*/   
+    --verde-color : rgb(13, 141, 45); 
+    --verde-color2 : rgba(42, 238, 75, 0.87);    
+  } 
+/* Fin variables */
+
+
+
+/* ESTILOS DE LA PÁGINA, SIDEBAR Y DASHBOARD */
+
+.borde{
+  border: #848085 3px solid;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titulo-total{
+  padding-top: 5px;
+  font-size: 30px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.verde{
+  font-weight: bold;
+  color: green;
+}
+
+.rojo{
+  font-weight: bold;
+  color: red;
+}
+
+.amarillo{
+  font-weight: bold;
+  color: rgb(207, 137, 7);
+}
+
+
+body{
+  background: #E4E9F7;
+  overflow: visible;
+}
+
+.btn-primary{
+  background: var(--verde-color) !important;
+  border-color: var(--verde-color) !important;
+}
+
+.btn-dark{
+  background: var(--oscuro) !important;
+  border-color: var(--oscuro) !important;
+}
+
+
+/*FIN ESTILOS DE LA PÁGINA, SIDEBAR Y DASHBOARD */
